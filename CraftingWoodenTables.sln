@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraftingWoodenTables", "CraftingWoodenTables\CraftingWoodenTables.csproj", "{95201508-864E-416B-BFE1-540F9A3A4B7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95201508-864E-416B-BFE1-540F9A3A4B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95201508-864E-416B-BFE1-540F9A3A4B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95201508-864E-416B-BFE1-540F9A3A4B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95201508-864E-416B-BFE1-540F9A3A4B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02ABB1A2-7E65-4DD6-88D4-5060A0D9C084}
+	EndGlobalSection
+EndGlobal
