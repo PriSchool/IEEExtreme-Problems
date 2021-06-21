@@ -1,0 +1,131 @@
+3 3 2 (CHECK: PLANKS_AMOUNT % SLOTS_AMOUNT != 0) | ANSWER = 0
+
+-1 3 3 8-
+ 
+single_Table_Cost = 1;
+amount_Of_Slots = 3;
+maximal_Planks_Amount_In_A_Slot = 3;
+total_Planks_Amount = 8;
+
+--------------------------
+
+3 3 2 (CHECK: PLANKS_AMOUNT % SLOTS_AMOUNT != 0) | ANSWER = 1
+
+-2 3 3 8-
+
+single_Table_Cost = 2;
+amount_Of_Slots = 3;
+maximal_Planks_Amount_In_A_Slot = 3;
+total_Planks_Amount = 8;
+
+--------------------------
+3 3 3 (CHECK: PLANKS_AMOUNT % SLOTS_AMOUNT == 0) | ANSWER = 3
+
+-3 3 3 9-
+
+single_Table_Cost = 3;
+amount_Of_Slots = 3;
+maximal_Planks_Amount_In_A_Slot = 3;
+total_Planks_Amount = 9;
+
+---------------------------
+8 8 8 8 7 (CHECK: PLANKS_AMOUNT % SLOTS_AMOUNT != 0; BIGGER ARRAY) | ANSWER = 4
+
+-8 5 8 39-
+
+single_Table_Cost = 8;
+amount_Of_Slots = 5;
+maximal_Planks_Amount_In_A_Slot = 8;
+total_Planks_Amount = 39;
+
+--------------------------
+1000000000000000 (CHECK: MAXIMAL SIZE IN SINGLE SLOT) | ANSWER = 1
+
+-1000000000000000 1 1000000000000000 1000000000000000-
+
+single_Table_Cost = 1000000000000000;
+amount_Of_Slots = 1;
+maximal_Planks_Amount_In_A_Slot = 1000000000000000;
+total_Planks_Amount = 1000000000000000;
+
+--------------------------
+5 2 0 0 0 (CHECK: PLANKS_AMOUNT % SLOTS_AMOUNT != 0; EXTRA EMPTY SLOTS) | ANSWER = 2
+
+-3 5 5 7-
+
+single_Table_Cost = 3;
+amount_Of_Slots = 5;
+maximal_Planks_Amount_In_A_Slot = 5;
+total_Planks_Amount = 7;
+
+--------------------------
+2 2 0 0 0 (CHECK: PLANKS_AMOUNT % SLOTS_AMOUNT == 0; EXTRA EMPTY SLOTS) | ANSWER = 1
+
+-3 5 2 4-
+
+single_Table_Cost = 3;
+amount_Of_Slots = 5;
+maximal_Planks_Amount_In_A_Slot = 2;
+total_Planks_Amount = 4;
+
+--------------------------
+
+2 2 0 (CHECK: PLANKS_AMOUNT % SLOTS_AMOUNT == 0; EXTRA EMPTY SLOTS) | ANSWER = 2
+
+-1 3 2 4-
+
+single_Table_Cost = 1;
+amount_Of_Slots = 3;
+maximal_Planks_Amount_In_A_Slot = 2;
+total_Planks_Amount = 4;
+
+--------------------------
+
+1 1 1 1 1 ... (CHECK: SPREAD OUT 10^18 PLANKS ALL ACROSS 10^18 SLOTS | ANSWER = 1000000000000000
+
+-1 1000000000000000 1 1000000000000000-
+
+single_Table_Cost = 1;
+amount_Of_Slots = 1000000000000000;
+maximal_Planks_Amount_In_A_Slot = 1;
+total_Planks_Amount = 1000000000000000;
+
+--------------------------
+1000000000000 1000000000000 1000000000000 1000000000000 1000000000000 0 0 0 0 0 0 0 0 0 0 0... (CHECK: BIG NUMBERS, EXTRA EMPTY SLOTS) | ANSWER = 10
+
+-500000000000 20 1000000000000 5000000000000-
+
+single_Table_Cost = 500000000000;
+amount_Of_Slots = 20;
+maximal_Planks_Amount_In_A_Slot = 1000000000000;
+total_Planks_Amount = 5000000000000;
+
+--------------------------
+3 3 3 3 3 (CHECK: PLANKS_AMOUNT % SLOTS_AMOUNT == 0) | ANSWER = 3
+
+-5 5 3 15-
+
+single_Table_Cost = 5;
+amount_Of_Slots = 5;
+maximal_Planks_Amount_In_A_Slot = 3;
+total_Planks_Amount = 15;
+
+--------------------------
+4 4 4 4 4 0 0 0 (CHECK: PLANKS_AMOUNT % SLOTS_AMOUNT == 0) | ANSWER = 6
+
+-2 8 4 20-
+
+single_Table_Cost = 2;
+amount_Of_Slots = 8;
+maximal_Planks_Amount_In_A_Slot = 4;
+total_Planks_Amount = 20;
+
+---------------------------
+1000001 1000001 1000001 1000001 1000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 (CHECK: PLANKS_AMOUNT % SLOTS_AMOUNT != 0; BIGGER ARRAY) | ANSWER = 0
+
+-1 1000000 1000001 5000004-
+
+single_Table_Cost = 1;
+amount_Of_Slots = 1000000;
+maximal_Planks_Amount_In_A_Slot = 1000001;
+total_Planks_Amount = 5000004;
