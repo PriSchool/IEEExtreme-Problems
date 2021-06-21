@@ -1,0 +1,3 @@
+*already implemented the full algorithm to traverse the  tree; seemed to work for base examples gives
+*calculating a full array of 2 to the x power (x = {0 - 60})
+*expected it to work half-way, atleast considering values up to 2^60, (task asks for 10^18 values)
